@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin:20px 30px 0 30px;
+  transition: 0.3s;
+}
+
+.welcme{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  transition: 0.3s;
+  text-align: center;
+   padding-left: 30px;
+}
+.welcme h1{
+   font-family: 'Open Sans', sans-serif ;
+   font-size: 55px;
+   transition: 0.3s;
+
+}
+.welcme h2{
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding-left:150px ;
+  margin-top: -20px;
+  font-family: 'Rubik Microbe', cursive;
+  color: rgb(116, 59, 59);
+  transition: 0.3s;
+}
+.image img{
+ width: 600px;
+}
+@media screen and (max-width: 998px) {
+   .container{
+   display: flex;
+   flex-direction: column;
+  }
+}
+@media screen and (max-width: 650px) {
+  .image img{
+    width: 400px;
+    height: 300px;
+   }
+   .welcme h1{
+    font-size: 30px;
+   }
+   .welcme h2{
+    font-size: 15px;
+   }
+}
